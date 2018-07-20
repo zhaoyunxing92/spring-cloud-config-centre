@@ -1,0 +1,6 @@
+server:
+  port: 12001
+info:
+  name: ev-web-base-srv
+  desc: 配置中心
+  version: 1.0.0
