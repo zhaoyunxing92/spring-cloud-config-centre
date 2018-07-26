@@ -4,15 +4,15 @@ spring:
     - dev
 ---
 server: 
-  port: 8080
+  port: 8085
 spring:
   profiles: dev     #开发环境
   application: 
-    name: microservicecloud-config-atguigu-dev
+    name: spring-cloud-config-dev
 ---
 server: 
   port: 8081
 spring:
   profiles: test   #测试环境
   application: 
-    name: microservicecloud-config-atguigu-test
+    name: spring-cloud-config-test
